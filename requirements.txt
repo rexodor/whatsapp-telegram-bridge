@@ -1,0 +1,26 @@
+# Requisitos para Telegram-WhatsApp Bridge
+
+# APIs y bibliotecas principales
+python-telegram-bot==20.6
+requests==2.31.0
+whatsapp-business-api-client-python==1.0.0  # Biblioteca ficticia, usar la oficial según disponibilidad
+
+# Manejo de configuración
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Procesamiento de multimedia
+Pillow==10.1.0
+python-magic==0.4.27
+
+# Logging y monitoreo
+loguru==0.7.2
+
+# Desarrollo y pruebas
+pytest==7.4.3
+pytest-mock==3.12.0
+black==23.11.0
+flake8==6.1.0
+
+# Despliegue
+gunicorn==21.2.0
