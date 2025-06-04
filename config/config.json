@@ -1,0 +1,27 @@
+{
+    "telegram": {
+        "token": "YOUR_TELEGRAM_BOT_TOKEN",
+        "channel_id": "YOUR_TELEGRAM_CHANNEL_ID"
+    },
+    "whatsapp": {
+        "api_key": "YOUR_WHATSAPP_API_KEY",
+        "phone_number_id": "YOUR_WHATSAPP_PHONE_NUMBER_ID",
+        "recipient": "RECIPIENT_PHONE_NUMBER"
+    },
+    "filters": {
+        "ignore_keywords": ["anuncio", "publicidad", "spam"],
+        "ignore_users": ["user1", "user2"],
+        "only_include_keywords": [],
+        "only_forward_media_types": ["text", "image", "video", "document", "audio"]
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/bridge.log",
+        "max_size_mb": 10,
+        "backup_count": 5
+    },
+    "reconnection": {
+        "max_retries": 5,
+        "retry_delay_seconds": 30
+    }
+}
