@@ -26,7 +26,7 @@ Este proyecto proporciona una solución para sincronizar mensajes entre platafor
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/rexodor/telegram-whatsapp-bridge.git
+   git clone git clone https://github.com/rexodor/whatsapp-telegram-bridge.git
    cd telegram-whatsapp-bridge
    ```
 
